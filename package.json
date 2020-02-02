@@ -19,7 +19,7 @@
   "scripts": {
     "pretty": "prettier --no-config './spec/*.ts' --write",
     "lint": "tslint -c tslint.json './spec/*.ts'",
-    "test": "npx ava --timeout=10s ./spec/*.spec.ts"
+    "test": "npx ava --timeout=1m ./spec/*.spec.ts"
   },
   "keywords": [
     "selenium-webdriver",
