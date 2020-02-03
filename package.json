@@ -6,7 +6,7 @@
     "@types/node": "12.12.26",
     "@types/selenium-webdriver": "4.0.6",
     "ava": "3.2.0",
-    "chromedriver": "79.0.2",
+    "chromedriver": "79.0.3",
     "husky": "4.2.1",
     "lint-staged": "10.0.7",
     "prettier": "1.19.1",
