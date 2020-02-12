@@ -7,7 +7,7 @@
     "@types/selenium-webdriver": "4.0.7",
     "ava": "3.3.0",
     "chromedriver": "79.0.3",
-    "husky": "4.2.2",
+    "husky": "4.2.3",
     "lint-staged": "10.0.7",
     "prettier": "1.19.1",
     "selenium-webdriver": "4.0.0-alpha.5",
