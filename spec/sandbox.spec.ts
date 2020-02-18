@@ -3,6 +3,7 @@ import { Builder, By } from "selenium-webdriver";
 
 let browser: any;
 import chrome from "selenium-webdriver/chrome";
+
 import "chromedriver";
 
 const options = new chrome.Options();
