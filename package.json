@@ -1,12 +1,20 @@
 {
-  "name": "selenium-webdriver-typescript-ts-node-ava",
-  "version": "1.0.0",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
   "description": "selenium-webdriver end-to-end test automation boilerplate, using TypeScript, ts-node and AVA.",
   "devDependencies": {
     "@types/node": "12.12.29",
     "@types/selenium-webdriver": "4.0.8",
     "ava": "3.4.0",
     "chromedriver": "79.0.3",
+    "eslint-plugin-json": "^2.1.0",
     "husky": "4.2.3",
     "lint-staged": "10.0.8",
     "prettier": "1.19.1",
@@ -16,40 +24,40 @@
     "tslint-config-prettier": "1.18.0",
     "typescript": "3.8.3"
   },
-  "scripts": {
-    "pretty": "prettier --no-config './spec/*.ts' --write",
-    "lint": "tslint -c tslint.json './spec/*.ts'",
-    "test": "npx ava --timeout=1m ./spec/*.spec.ts"
-  },
-  "keywords": [
-    "selenium-webdriver",
-    "typescript",
-    "ts-node",
-    "AVA",
-    "boilerplate",
-    "example",
-    "e2e",
-    "e2e test"
-  ],
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
-  "ava": {
-    "extensions": [
-      "ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
+  "keywords": [
+    "ava",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
+    "selenium",
+    "selenium-webdriver",
+    "ts-node",
+    "typescript",
+    "webdriver"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "*.{ts,js,css,json,md}": [
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "name": "selenium-webdriver-typescript-ts-node-ava",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/selenium-webdriver-typescript-ts-node-ava.git"
+  },
+  "scripts": {
+    "pretty": "prettier --no-config './spec/*.ts' --write",
+    "lint": "tslint -c tslint.json './spec/*.ts'",
+    "test": "npx ava --timeout=1m ./spec/*.spec.ts"
+  },
+  "version": "1.0.0"
 }
