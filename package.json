@@ -12,7 +12,7 @@
   "devDependencies": {
     "@types/node": "12.12.29",
     "@types/selenium-webdriver": "4.0.8",
-    "ava": "3.4.0",
+    "ava": "3.5.0",
     "chromedriver": "79.0.3",
     "husky": "4.2.3",
     "lint-staged": "10.0.8",
