@@ -14,7 +14,6 @@
     "@types/selenium-webdriver": "4.0.8",
     "ava": "3.4.0",
     "chromedriver": "79.0.3",
-    "eslint-plugin-json": "^2.1.0",
     "husky": "4.2.3",
     "lint-staged": "10.0.8",
     "prettier": "1.19.1",
