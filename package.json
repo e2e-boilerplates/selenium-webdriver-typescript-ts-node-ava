@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "ava": {
     "extensions": [
       "ts"
@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-typescript-ts-node-ava/issues"
   },
-  "description": "Selenium-WebDriver end-to-end test automation boilerplate. Using Using TypeScript, ts-node and AVA.",
+  "description": "Selenium-WebDriver end-to-end test automation boilerplate. using TypeScript, ts-node and AVA.",
   "devDependencies": {
     "@types/node": "12.12.29",
     "@types/selenium-webdriver": "4.0.9",
@@ -34,11 +34,6 @@
   },
   "keywords": [
     "ava",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "selenium",
     "selenium-webdriver",
     "ts-node",
