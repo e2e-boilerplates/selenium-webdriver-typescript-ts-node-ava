@@ -60,5 +60,6 @@
     "pretty": "prettier --no-config './spec/*.ts' --write",
     "test": "npx ava --timeout=1m ./spec/*.spec.ts"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {}
 }
