@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "ava": {
     "extensions": [
       "ts"
@@ -30,7 +30,7 @@
     "@types/selenium-webdriver": "4.0.9",
     "husky": "4.2.3",
     "lint-staged": "10.0.8",
-    "prettier": "1.19.1",
+    "prettier": "2.0.1",
     "tslint": "6.1.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.2.0"
@@ -43,6 +43,11 @@
   },
   "keywords": [
     "ava",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
     "selenium",
     "selenium-webdriver",
     "ts-node",
