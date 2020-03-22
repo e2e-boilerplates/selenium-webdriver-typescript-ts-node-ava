@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "ava": {
     "extensions": [
       "ts"
@@ -11,6 +11,9 @@
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-typescript-ts-node-ava/issues"
   },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
   "description": "Selenium-WebDriver end-to-end test automation boilerplate. using TypeScript, ts-node and AVA.",
   "devDependencies": {
     "@types/node": "12.12.30",
@@ -20,10 +23,10 @@
     "husky": "4.2.3",
     "lint-staged": "10.0.8",
     "prettier": "1.19.1",
-    "selenium-webdriver": "4.0.0-alpha.7",
     "ts-node": "8.7.0",
     "tslint": "^6.1.0",
     "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.2.0",
     "typescript": "3.8.3"
   },
   "homepage": "https://github.com/e2e-boilerplate/selenium-webdriver-typescript-ts-node-ava#readme",
@@ -34,11 +37,6 @@
   },
   "keywords": [
     "ava",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "selenium",
     "selenium-webdriver",
     "ts-node",
@@ -60,8 +58,5 @@
     "pretty": "prettier --no-config './spec/*.ts' --write",
     "test": "npx ava --timeout=1m ./spec/*.spec.ts"
   },
-  "version": "1.0.0",
-  "dependencies": {
-    "tslint-plugin-prettier": "^2.2.0"
-  }
+  "version": "1.0.0"
 }
