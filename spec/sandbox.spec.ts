@@ -1,8 +1,9 @@
 import test from "ava";
+/* tslint:disable:no-submodule-imports */
+import chrome from "selenium-webdriver/chrome";
 import { Builder, By } from "selenium-webdriver";
 
 let browser: any;
-import chrome from "selenium-webdriver/chrome";
 
 import "chromedriver";
 
@@ -22,7 +23,7 @@ test.after(async () => {
   browser.quit();
 });
 
-test("Should be on Sandbox", async t => {
+test("Should be on Sandbox", async (t) => {
   t.timeout(20000);
   const title = await browser.getTitle();
   const header = await browser.findElement(By.css("h1"));
