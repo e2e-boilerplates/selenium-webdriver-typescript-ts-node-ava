@@ -1,15 +1,14 @@
-import test from "ava";
 /* tslint:disable:no-submodule-imports */
-import chrome from "selenium-webdriver/chrome";
+import test from "ava";
 import { Builder, By } from "selenium-webdriver";
-
-let browser: any;
+// tslint:disable-next-line:no-var-requires
+const chrome = require("selenium-webdriver/chrome");
 
 import "chromedriver";
 
 const options = new chrome.Options();
-
 const chromeOptions = process.env.GITHUB_ACTIONS ? options.headless() : options;
+let browser: any;
 
 test.before(async () => {
   browser = await new Builder()
