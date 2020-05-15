@@ -21,7 +21,6 @@
   },
   "description": "Selenium-WebDriver end-to-end test automation boilerplate. Using TypeScript, ts-node and AVA.",
   "devDependencies": {
-    "@ava/babel": "1.0.1",
     "@types/node": "13.13.6",
     "@types/selenium-webdriver": "4.0.9",
     "husky": "4.2.5",
@@ -47,7 +46,8 @@
     "selenium",
     "selenium-webdriver",
     "ts-node",
-    "typescript"
+    "typescript",
+    "webdriver manager"
   ],
   "license": "MIT",
   "lint-staged": {
